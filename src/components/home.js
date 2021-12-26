@@ -5,7 +5,7 @@ function About() {
   return (
     <main>
         <Header />
-        <h2>Welcome to the Home Page</h2>
+        <h2>Welcome to the Homie Simpson</h2>
     </main>
   );
 }
