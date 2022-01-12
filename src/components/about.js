@@ -22,7 +22,7 @@ function About() {
             <p><b>GPA:</b> 3.39</p>
             <p><b>Major Only GPA:</b> 3.56</p>
           </div>
-          <img src={Self}/>
+          <img src={Self} alt="A self portrait of myself"/>
         </div>
       </main>
   );
