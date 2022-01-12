@@ -5,7 +5,21 @@ function Contact() {
   return (
       <main>
         <Header />
-        <h2>Welcome to the Contact Page</h2>
+        <h1 className='temp'>Contact Information</h1>
+        <div className='contactBox'>
+          <div>
+            <p>Name:</p>
+            <p>Email:</p>
+            <p>Phone:</p>
+            <p>Linked-In:</p>
+          </div>
+          <div>
+            <p>Keagan Anderson</p>
+            <p>keagan39@yahoo.com</p>
+            <p>(253)-310-7570</p>
+            <p><a href='https://www.linkedin.com/in/keagan-anderson-093670194'>https://www.linkedin.com/in/keagan-anderson-093670194</a></p>
+          </div>
+        </div>
       </main>
                 /* <div className="projectHolder">
           <span className="project">

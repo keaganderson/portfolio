@@ -8,6 +8,7 @@ import Home from './components/home';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import NotFound from './components/error';
+import Decision from './components/decision'
 
 const App = () => {
   return (
@@ -17,7 +18,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project-decision" element={<Decision />} />
           <Route path="*" element={<NotFound />} />
+
       </Routes>
     </BrowserRouter>
   );

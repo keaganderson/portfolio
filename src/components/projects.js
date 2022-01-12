@@ -1,22 +1,44 @@
 import Header from './Header'
-
+import { Link } from "react-router-dom";
+import tree from '../Images/decisiontREE.png'
+import pig from '../Images/pig.jpg'
+import lynx from '../Images/lynx.jpg'
 
 function Projects() {
   return (
       <main>
         <Header />
         <h2> Welcome to the Projects Page</h2>
+        <div className="projectBox">
+            <article className="project">
+                <Link to="/project-decision">
+                    <h3><Link to="/project-decision"><p className='link'>Custom Decision Tree</p></Link></h3>
+                    <img src={tree}/>
+                    <p>The otter project was one where I taught otters to wear cute hats. Honestly I'm not quite sure what I was
+                        thinking when I initiated it, but it worked so much better than expected.
+                    </p>
+                </Link>
+            </article>
+            <article className="project">
+                <h3>The Piggy Cuteness Project</h3>
+                <img src={pig}/>
+                <p>
+                    The pig was cute so I did it. :D
+                </p>
+            </article>
+            <article className="project">
+                <h3>This is an overly complicated and exaggerated title to test how my system can handle it. Also Lynx *heart*</h3>
+                <img src={lynx}/>
+                <p>
+                    Lynxxxxx yayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+                </p>
+            </article>
+            <article className="project">
+                <p>Project 4 Content</p>
+            </article>
+            
+        </div>
       </main>
-                /* <div className="projectHolder">
-          <span className="project">
-            <h3>Runic Wars</h3>
-            <img src="https://www.gannett-cdn.com/presto/2019/06/24/USAT/ccb69e45-b78b-46c1-b5c0-c01369b56814-16X9.png?crop=1279,719,x0,y0&width=1278&height=719&format=pjpg&auto=webp"></img>
-          </span>
-          <span className="project">
-            <h3>Decision Tree</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiO4lw3FYovFyQhMcVZ8nXaUaoRGhUZvx81w&usqp=CAU" alt="Girl in a jacket"></img>
-          </span>
-        </div> */
   );
 }
 
