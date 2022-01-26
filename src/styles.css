@@ -19,14 +19,11 @@ body {
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
-.project {
-  background-color: blue;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+
 
 img {
   height: 80%;
@@ -76,9 +73,14 @@ h2 {
 
 .project {
     flex: 0 1 20%;
-    background-color: #444444;
+    background-color: #515151;
     margin: 2%;
-    height: 70%;
+    height: 100%;
+    align-items:flex-start
+}
+
+.project p {
+  color: lightblue;
 }
 
 .contactBox {
@@ -172,12 +174,24 @@ h2 {
   margin-right: 5%;
 }
 
-.singleProject img {
+.decisionImg {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.pentagoImg {
   width: 40%;
   margin-left: 30%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .link {
   color: #add8e6;
+  text-align: center;
+}
+
+.exampleImg {
+  width: 20%;
+  margin-left: 5%;
 }
