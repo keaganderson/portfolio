@@ -15,10 +15,10 @@ function Projects() {
 
             <article className="project">
                 <Link to="/project-runic">
-                    <h3 className='link'>Unity / C# / CloudScript - Runic Wars: Character Collector Game</h3>
+                    <h3 className='link'>Unity / C# / Server Scripting - Runic Wars: Character Collector Game</h3>
                     <img src={menu} alt="decision tree"/>
                     <p>
-                        A game where you collect, power up, and fight with various characters. Developed as a side project over the summer with a
+                        A Unity strategy game where you collect, power up, and fight with various characters. Developed as a side project over the summer with a
                         classmate.
                     </p>
                 </Link>
@@ -29,7 +29,7 @@ function Projects() {
                     <h3 className ='link'>Java - Pentago Game Vs Artificial Intelligence</h3>
                     <img src={pentago} alt="a text form of pentago"/>
                     <p>
-                        Implementation of the game Pentago playing against an Artificial Intelligence.
+                        Implementation of the game "Pentago" playing against an Artificial Intelligence.
                     </p>
                 </Link>
             </article>
@@ -39,7 +39,7 @@ function Projects() {
                     <h3 className ='link'>Python - Custom Naive Bayes Classification (Spambase Dataset)</h3>
                     <img src={bayes} alt="a venn diagram"/>
                     <p>
-                       Implements a custom Naive Bayes classifier then trains and tests it on the SpamBase Dataset.
+                       Implements a custom Naive Bayes machine learning classifier then trains and tests it on the SpamBase Dataset.
                     </p>
                 </Link>
             </article>
@@ -49,7 +49,7 @@ function Projects() {
                     <h3 className ='link'>Java - Fifteen Tile Sliding Puzzle Solver (Multiple Algorithms)</h3>
                     <img src={sliding} alt="an example of a Fifteen game"/>
                     <p>
-                        Uses various possible algorithms to solve Fifteen puzzles and calculate the efficiency of the algorithm.
+                    A program that, when given an unsolved Fifteen puzzle and an algorithm to use, solves the Fifteen puzzle and calculate the efficiency of the algorithm.
                     </p>
                 </Link>
             </article>
