@@ -62,6 +62,7 @@ function Runic() {
             </p>
             <img className='exampleImg' src={profileChamp} alt="the champion profile screen" />
 
+            <p className='important'><b>Important: You Must Go to the Shop and Click the Champion Button Five Times (Receive Every Champion) to Unlock Story Mode and Combat</b></p>
             <p><b>Story Mode:</b> After collecting the five champions in the game, the Story Mode tab in the main menu will unlock. This leads to a map
             of three current levels implemented with only the first level unlocked, the others unlock when the previous level is completed.
             </p>

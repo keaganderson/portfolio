@@ -195,3 +195,7 @@ h2 {
   width: 20%;
   margin-left: 5%;
 }
+
+.important {
+  color: red;
+}
