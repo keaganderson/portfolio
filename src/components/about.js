@@ -18,6 +18,9 @@ function About() {
               and the Halo Rise. After which I moved to Lockheed Martin on the Signature Integration team where I am currently working on creating web based internal tools for thousands of people to use daily
               in order to track tasks and schedules.
             </p>
+            <h3>Experience</h3>
+            <p><b>May 2022 - June 2023:</b> Amazon</p>
+            <p><b>November 2023 - Present:</b> Lockheed Martin</p>
             <h3>Education</h3>
             <p><b>Degree:</b> Bachelor's</p>
             <p><b>Major:</b> Computer Science and Systems</p>
