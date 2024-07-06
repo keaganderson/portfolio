@@ -12,9 +12,11 @@ function About() {
           <div className='tempCollect'>
             <h3>Introduction</h3>
             <p>
-              My name is Keagan Anderson. I am a recent University graduate with a great passion for programming and problem solving. I graduated from the University of Washington with
-              a Bachelor's Degree in Computer Science and Systems. During this time I have completed numerous projects, both for classes and on the side following my interests or curiosities.
-              I collected the bigger ones here to better organize and display them.
+              My name is Keagan Anderson. I am an experienced Software Developer with a great passion for programming and problem solving. I graduated from the University of Washington with
+              a Bachelor's Degree in Computer Science and Systems in 2021. During this time I have completed numerous projects, both for classes and on the side following my interests or curiosities.
+              I collected the bigger ones here to better organize and display them. After that, I joined Amazon's Halo Health Tech team until 2023 and worked to develop and maintain the Sleep Tracker for the Halo Band
+              and the Halo Rise. After which I moved to Lockheed Martin on the Signature Integration team where I am currently working on creating web based internal tools for thousands of people to use daily
+              in order to track tasks and schedules.
             </p>
             <h3>Education</h3>
             <p><b>Degree:</b> Bachelor's</p>
